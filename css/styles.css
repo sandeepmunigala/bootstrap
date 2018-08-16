@@ -1,0 +1,228 @@
+
+@font-face {
+    font-family: 'Aparajita';
+    src: url('../fonts/Aparajita/Aparajita.eot') format('embedded-opentype');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Aparajita';
+    src: url('../fonts/Aparajita/Aparajita.woff') format('woff');
+    font-style: normal;
+  }
+  
+body{
+    font-family: 'Aparajita';
+}
+
+/* Header start */
+
+.header{
+    background: #dad7dc;
+}
+.header-left h1{
+    color: #010a97;
+    font-size: 30px;
+}
+.header-middle h1{
+    text-transform: capitalize;
+}
+.header-right {
+    margin-top: 25px;
+}
+.header-right a{
+    font-size: 21px;
+    color: #c76161;
+}
+.header-right a:hover{
+    text-decoration: none;
+}
+.header-right img{
+    width: 20%;
+    padding-left: 5px;
+}
+
+/* Headerend */
+
+/* Slider start */
+.slider-bottom{
+    position: absolute;
+    top: 91%;
+    right: 10%;
+}
+.custom-top-indicator{
+    left: 86%;
+    width: 10%;
+    margin-left: 0;
+    bottom: 13%;
+}
+.custom-top-indicator li{
+    width: 8px;
+    height: 8px;
+}
+.custom-top-indicator .active{
+    width: 10px;
+    height: 10px;
+}
+
+/* Slider end */
+
+/* Text Start */
+.text-left{
+    margin-top: 30px;
+    padding: 0;
+}
+.text-left p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.text-left p span{
+    color: #010a97;
+    border-bottom:3px solid #fdea2a;
+}
+.text{
+    text-transform: capitalize;
+    margin-left: 180px;
+    font-size: 24px;
+    color: #010a97;
+}
+.images{
+    margin-top: 25px;
+}
+.text-bottom{
+    margin-left: 50px;
+    padding-top: 13px;
+}
+.text-bottom p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.custom-button{
+    float:right;
+    border: 2px solid #010a97;
+    border-radius: 22px;
+    width: 24%;
+    font-size: 18px;
+    background: none;
+    margin-right: 70px;
+}
+/* Text End */
+
+/* Banner Start */
+.banner{
+    background: url('../images/Banner.png') no-repeat 100%;
+    margin-top: 40px;
+}
+.offer-text{
+    margin-left: 33%;
+    padding-top: 10px;
+}
+.offer-text h1{
+    font-size: 52px;
+    margin-bottom: 0;
+    color: #010a97;
+}
+.offer-text span{
+    font-size: 78px;
+    line-height: 0;
+}
+.offer-text p{
+    font-size: 22px;
+    padding-left: 32px;
+}
+.banner-button{
+    margin: 50px auto;
+}
+.custom-btn{
+    width: 42%;
+    background: #fff;
+    border-radius: 0;
+    font-size: 22px;
+    padding: 0px;
+    box-shadow: none;
+}
+/* Banner End */
+
+/* Hoodies */
+.hoodies{
+    padding: 20px;
+}
+.hoodies h3{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.product-info{
+    text-align: center;
+    margin: 20px 0 0;
+}
+.product-info h4 a{
+    font-size: 24px;
+    color: #111;
+    text-decoration: none;
+}
+.product-price span{
+    color: #faeb31;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.thumb-item img{
+    border-radius: 10px;
+}
+/* Hoodies end */
+
+/* Contact */
+.contact{
+    text-align: center;
+    margin: 30px auto;
+}
+.contact h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact p{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.custom-form-control{
+    width: 40%;
+    margin: 15px auto;
+    border-radius: 0;
+    height: 40px;
+    font-size: 18px;    
+    -webkit-box-shadow: 0px 1px 22px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 1px 22px 3px rgba(0,0,0,0.4);
+    box-shadow: 0px 1px 22px 3px rgba(0,0,0,0.4);
+}
+/* Contact end */
+
+/* Footer */
+.footer{
+    background: #010a97;
+}
+.footer-left{
+    margin: 30px auto;
+}
+.footer-left ul{
+    margin-bottom: 10px;
+}
+.footer-left ul li{
+    padding: 5px 15px;
+}
+.footer-left ul li a{
+    font-size: 25px;
+    color: #fff;
+}
+.footer-left ul li a:hover,.footer-left ul li a:focus{
+    text-decoration: none;
+}
+.footer-left p{
+    font-size: 18px;
+    padding-left: 10px;
+    color: #fff;
+}
